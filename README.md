@@ -1,9 +1,7 @@
 # Just a simple Sudoku game made in React 
 using https://github.com/robatron/sudoku.js/ library
 
-# Getting Started with Create React App
-
-How to run
+# How to run
 download repository and run in terminal:
 ### `npm start`
 
