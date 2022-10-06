@@ -1,0 +1,35 @@
+$box-dimension: 65px;
+$row-width: calc($box-dimension * 10);
+$row-height: calc($box-dimension * 3);
+
+.box-number {
+  border: 1px dotted black;
+  width: $box-dimension;
+  height: $box-dimension;
+  flex-basis: 33.333333%;
+  display: flex;
+  justify-content: center;
+  &.color-blue {
+    color: blue;
+  }
+  &.error {
+    color: red;
+  }
+  &.current {
+    background-color: #0000ff41;
+  }
+}
+
+.square-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33.33333%;
+  border: 1px solid blue;
+}
+
+.sudoku-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: $row-width;
+  height: $row-height;
+}
